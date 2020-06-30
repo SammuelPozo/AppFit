@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppFit.Vistas.Piernas"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="Piernas"
+                   TextColor="White"
+                   FontSize="22"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Sentadillas"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="Sentadillas.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="Ponte de pie con las piernas separadas, situando cada pie en paralelo con los hombros. Con la mirada al frente, flexiona las piernas, descendiendo los glúteos en dirección al suelo, manteniendo sin levantar las plantas de los pies.
+                                 3 series de 12-15 repeticiones
+                                 "/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Zancadas Alternadas"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="Zancadas.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="La posición inicial es en cuclillas y con las manos posicionadas en la cadera. Adelanta una pierna y la otra, alternativamente. Ten en cuenta que la pierna que se encuentre levantada no debe superar un ángulo de 90 grados.
+                                 3 series de 12-15 repeticiones
+                                 "/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Puente"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="Puente.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="Túmbate boca arriba con las piernas flexionadas. A continuación, levanta la cadera y permanecer inmóvil durante 20 segundos.
+                                 3 series
+                                 "/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Burpees"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="Burpee.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="Es un movimiento en el que participan una gran cantidad de músculos como, por ejemplo, los glúteos y los cuádriceps. El ejercicio consiste, básicamente, en colocarnos de cuclillas, con las manos apoyadas en el suelo, y, desde esa posición, estirar las piernas hacia atrás y, seguidamente, volver a la posición inicial. Tras estirar las piernas, debemos finalizar el movimiento con un salto vertical.
+                                 4 series de 10-20 repeticiones
+                                 "/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

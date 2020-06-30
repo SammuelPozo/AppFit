@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppFit.Vistas.Pecho"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="Pecho"
+                   TextColor="White"
+                   FontSize="22"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+
+                    <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                        <StackLayout>
+                            <Label Text="Press en maquina tumbado"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                            <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                            <Image Source="PressMaquinaTumbada.png"
+                                   HorizontalOptions="Center"
+                                   WidthRequest="{OnPlatform Android=250}"/>
+                            <Label Text="El Press en máquina tumbado, ya sea de discos o de placas, es un excelente ejercicio para principiantes por su bajo potencial lesivo. Pero no nos engañemos, también es un ejercicio utilizado por avanzados ya que puede proporcionar un bombeo excepcional a nuestros músculos.
+
+                                         3 Series de 12-15 repeticiones"/>
+                        </StackLayout>
+                    </Frame>
+
+                    
+                    <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                        <StackLayout>
+                            <Label Text="Apertura con Mancuernas"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                            <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                            <Image Source="aperturaMancuernas.png"
+                                   HorizontalOptions="Center"
+                                   WidthRequest="{OnPlatform Android=250}"
+                                   />
+                            <Label Text="Es un ejercicio de aislamiento donde enfocamos nuestro esfuerzo únicamente en el pecho. Su dominio nos permitirá pasar posteriormente a ejercicios bio-mecanicamente parecidos con pesos libres.
+                                         3 Series de 12-15 repeticiones"/>
+                        </StackLayout>
+                    </Frame>
+
+
+                    <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                        <StackLayout>
+                            <Label Text="Press de banca"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                            <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                            <Image Source="PressBanca.png"
+                                   HorizontalOptions="Center"
+                                   WidthRequest="{OnPlatform Android=250}"/>
+                            <Label Text="El ejercicio de pecho básico por excelencia, el ejercicio que dará volumen a tu pecho. Además de trabajar el pectoral también trabaja los hombros y tríceps.
+                                         3 Series de 10-12 repeticiones"/>
+                        </StackLayout>
+                    </Frame>
+
+
+                    <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                        <StackLayout>
+                            <Label Text="Apertura banco inclinado"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                            <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                            <Image Source="aperturaBancoInclinado.png"
+                                   HorizontalOptions="Center"
+                                   WidthRequest="{OnPlatform Android=250}"/>
+                            <Label Text="Es un excelente ejercicio para principiantes por su bajo potencial lesivo. Pero no nos engañemos, también es un ejercicio utilizado por avanzados ya que puede proporcionar un bombeo excepcional a nuestros músculos.
+                                         3 Series de 12-15 repeticiones"/>
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

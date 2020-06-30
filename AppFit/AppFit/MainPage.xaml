@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppFit.MainPage"
+             BackgroundColor="Black"
+             >
+
+
+    <StackLayout>
+        
+        <Label Text="AppFit"
+               FontSize="25"
+               TextColor="White"
+               HorizontalOptions="Center"/>
+        <StackLayout HorizontalOptions="Center">
+            <!--<CarouselView x:Name="theCarrousel">
+                <CarouselView.ItemsSource>
+                    <x:Array></x:Array>
+                </CarouselView.ItemsSource>
+            </CarouselView>-->
+
+
+            <Image Source="gimnasio.png"/>
+            <Label TextColor="White" FontAttributes="Bold">Ejerecicios en casa, vida sana.</Label>
+        </StackLayout>
+        <StackLayout HorizontalOptions="FillAndExpand">
+            <Button Text="Pecho" FontSize="Medium" x:Name="btnPecho" BackgroundColor="Red" TextColor="#FDFDFD" Clicked="pagina_pecho" WidthRequest="50" HeightRequest="50" CornerRadius="20"/>
+            <Button Text="Abdominales" FontSize="Medium" x:Name="btnAbdominales" BackgroundColor="Red" TextColor="#FDFDFD" Clicked="pagina_abdominales" WidthRequest="50" HeightRequest="50" CornerRadius="20"/>
+            <Button Text="Piernas" FontSize="Medium" x:Name="btnPiernas" BackgroundColor="Red" TextColor="#FDFDFD" Clicked="pagina_piernas" WidthRequest="50" HeightRequest="50" CornerRadius="20"/>
+            <Button Text="Brazos" FontSize="Medium" x:Name="btnBrazos" BackgroundColor="Red" TextColor="#FDFDFD" Clicked="pagina_brazos" WidthRequest="50" HeightRequest="50" CornerRadius="20"/>
+        </StackLayout>
+
+        <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand">
+            <Button Text="Tutoriales" FontSize="Medium" x:Name="btnTutoriales" 
+                    Clicked="pagina_tutoriales"
+                    BackgroundColor="Red" TextColor="#FDFDFD" WidthRequest="50" HeightRequest="50" CornerRadius="20"/>
+
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

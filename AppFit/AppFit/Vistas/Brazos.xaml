@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppFit.Vistas.Brazos"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="Brazos"
+                   TextColor="White"
+                   FontSize="22"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Flexiones de pecho"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="flexionesPecho.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="las flexiones de pecho nos ayudan a trabajar el pectoral, pero también colaboran de forma activa los tríceps. Túmbate boca abajo y coloca las manos a una anchura un poco mayor que la de tus hombros.
+                                 4  series de 10-12 repeticiones
+                                 "/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Flexiones tríceps"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="flexionesTriceps.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="En este tipo de flexiones, el esfuerzo va dirigido directamente al tríceps. Coloca tus manos directamente debajo de tus hombros y asegúrate de que tus brazos están bien pegados al cuerpo y de que tus codos apuntan hacia atrás.
+                                 3 series de 10-12 repeticiones
+                                 "/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Elevaciones laterales para los hombros"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="ElevacionesLaterales.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="Los hombros quedan al descubierto siempre que llevamos una camiseta de tirante o un escote palabra de honor, así que merece la pena mantenerlos en forma. Colócate de pie con las rodillas ligeramente flexionadas y una mancuerna (o botella) en cada mano.
+                                 4 series de 15-20 repeticiones
+                                 "/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Dips de tríceps"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="DipsTriceps.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text=" Un ejercicio sencillo pero efectivo para nuestros tríceps son los dips o fondos, para los que necesitarás una silla o una mesa baja. Nos colocamos de espaldas a la silla y apoyamos las manos en el asiento, de modo que los dedos de las manos miren hacia nosotros.
+                                  4 series de 15-20 repeticiones
+                                  "/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Extensión de tríceps"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="extensionesTriceps.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="Nos colocamos de pie con las piernas ligeramente flexionadas y tomamos una mancuerna o botella. Subimos ambos brazos hacia el techo, colocando la mancuerna por encima de nuestra cabeza, y desde ahí, flexionamos los codos para que llegue hasta la altura de nuestra nuca. Volvemos a estirar los codos para regresar a la posición inicial.
+                                 3 series de 15-20 repeticiones
+                                 "/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

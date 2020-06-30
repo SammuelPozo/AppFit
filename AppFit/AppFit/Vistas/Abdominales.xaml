@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppFit.Vistas.Abdominales"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="Abdominales"
+                   FontSize="22"
+                   TextColor="White"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Plancha Superman"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="plancha.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="Consta de una dificultan un tanto elevada, este tipo de ejercicios afecta de una manera directa el torso, hombros, músculos isquiotibiales, coordinación y equilibrio. Se advierte mantener la parte inferior y la superior del cuerpo en línea recta durante el movimiento.
+                                 3 series de 10-15 repeticiones
+                                 "/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Elevaciones de rodilla"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="ElevacionesRodilla.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="Este ejercicio es de una dificultad baja, en su caso ejercita los músculos abdominales y flexores de la cadera, tratar de elevar las piernas tanto como puedas manteniendo el torso erguido.
+                                 4 series de 20-25 repeticiones
+                                 "/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Giros rusos"
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="girosRusos.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="Con dificultad elevada este se centra en los músculos abdominales, se recomienda tener las piernas estiradas hacia delante sin que los pies toquen el suelo y con el tronco erguido.
+                                 4 series de 15-25 repeticiones.
+                                 "/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray"
+                   CornerRadius="5"
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="Elevaciones de piernas "
+                           FontSize="Medium"
+                           FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+                        <Image Source="elevacionesPierna.png"
+                               HorizontalOptions="Center"
+                               WidthRequest="{OnPlatform Android=250}"/>
+                        <Label Text="Su dificultad es elevada, pero trabaja de una manera firme los músculos rectos del abdomen y flexores de cadera, tratar de tensar deliberadamente el abdomen para evitar la lordosis y mantener las piernas tan estiradas como puedas.
+                                 3 series de 15-20 repeticiones.
+                                 "/>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Segf2RqtB8Yh01qmTOSxHTK4ekbbSzMB8ozSPanVhGaGqL2oPunGTvNO2C5Tc0+okbLgApZnXbLg9qsM2R3tw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gabriel Sammuel Pozo\\source\\repos\\AppFit\\AppFit\\AppFit.iOS\\AppFit.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriel Sammuel Pozo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512",
+    "C:\\Users\\Gabriel Sammuel Pozo\\.nuget\\packages\\xamd.plugins.forms.imagecarousel\\1.0.2\\xamd.plugins.forms.imagecarousel.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
